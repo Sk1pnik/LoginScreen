@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/signInFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.skipnik.loginscreen.presentation.signin.SignInFragment"
+        android:label="Sign In">
+        <action
+            android:id="@+id/action_signInFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.skipnik.loginscreen.presentation.profile.ProfileFragment"
+        android:label="Profile">
+        <argument
+            android:name="id"
+            app:argType="integer" />
+    </fragment>
+</navigation>

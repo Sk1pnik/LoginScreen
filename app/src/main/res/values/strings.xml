@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login Screen</string>
+    <string name="tips">TIPS</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="continue_button">Continue</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+</resources>
